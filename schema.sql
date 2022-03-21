@@ -1,6 +1,6 @@
 /* Database schema to keep the structure of entire database. */
 
-create table animals(id INT PRIMARY KEY NOT NULL, 
+create table animals(id INT PRIMARY KEY NOT NULL GENERATED ALWAYS AS IDENTITY, 
 					 name TEXT NOT NULL, 
 					 date_of_birth DATE NOT NULL, 
 					 escape_attempts INT DEFAULT 0, 
