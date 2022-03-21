@@ -18,19 +18,19 @@ INSERT INTO public.animals(
 
 	INSERT INTO public.animals(
 	name, date_of_birth, escape_attempts, neutered, weight_kg)
-	VALUES ('Charmander', '2020-02-08', 0, false, 11.0);
+	VALUES ('Charmander', '2020-02-08', 0, false, -11.0);
 	
 INSERT INTO public.animals(
 	name, date_of_birth, escape_attempts, neutered, weight_kg)
-	VALUES ('Plantmon', '2021-11-15', 2, true, 5.7);
+	VALUES ('Plantmon', '2021-11-15', 2, true, -5.7);
 	
 INSERT INTO public.animals(
 	name, date_of_birth, escape_attempts, neutered, weight_kg)
-	VALUES ('Squirtle', '1993-04-02', 3, false, 12.13);
+	VALUES ('Squirtle', '1993-04-02', 3, false, -12.13);
 
 INSERT INTO public.animals(
 	name, date_of_birth, escape_attempts, neutered, weight_kg)
-	VALUES ('Angemon', '2005-06-12', 1, true, 45);
+	VALUES ('Angemon', '2005-06-12', 1, true, -45);
 	
 INSERT INTO public.animals(
 	name, date_of_birth, escape_attempts, neutered, weight_kg)
