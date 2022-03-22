@@ -30,3 +30,7 @@ ALTER TABLE animals DROP COLUMN species;
 ALTER TABLE animals ADD COLUMN species_id INT;
 ALTER TABLE animals ADD CONSTRAINT species_constraint FOREIGN KEY(species_id) REFERENCES species(id);
 
+/* ADD COLUMN OWNER_ID AS FOREIGN KEY REFERENCING OWNERS TABLE */
+ALTER TABLE animals ADD COLUMN owner_id INT;
+ALTER TABLE animals ADD CONSTRAINT owners_constraint FOREIGN KEY(owner_id) REFERENCES owners(id);
+
