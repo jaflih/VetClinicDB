@@ -2,6 +2,8 @@
 
 > This project is a relational database to create the data structure for a vet clinic.
 
+![schema](https://user-images.githubusercontent.com/7243132/160576034-272987da-e55b-48c2-9ffc-af43f5da266d.png)
+
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
